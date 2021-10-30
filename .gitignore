@@ -4,3 +4,10 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Mac
+.DS_STOre
+# Altre cose di intellij
+out
+università.iml
+*.class
+.idea

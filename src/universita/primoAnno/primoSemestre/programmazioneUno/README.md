@@ -1,0 +1,2 @@
+Nota: I file che trovate in CartaOro, Esercizi ed esamiPassati sono tutti file fatti da me e quindi, possono contenere errori oppure, funzioni/meccanismi che il prof non vi ha ancora spiegato.<br>
+Consiglio vivamente di esaminare gli esercizi degli anni scorsi.
