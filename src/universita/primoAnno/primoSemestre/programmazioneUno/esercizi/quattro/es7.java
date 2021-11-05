@@ -59,8 +59,8 @@ public class es7 {
 
         // Calcoliamo la lunghezza totale della nostra divisione
         int moltiplicazioneTotale = fattore1 * fattore2;
-        int lunghezzaTotale = 0;
-        while (moltiplicazioneTotale % 10 != 0) {
+        int lunghezzaTotale = 1;
+        while (moltiplicazioneTotale > 9) {
             lunghezzaTotale++;
             moltiplicazioneTotale /= 10;
         }
@@ -102,8 +102,8 @@ public class es7 {
             int privaVal = value * fattore1;
             int tempPrivaVal = privaVal;
 
-            int lenNumero = 0;
-            while (tempPrivaVal % 10 != 0) {
+            int lenNumero = 1;
+            while (tempPrivaVal > 9) {
                 lenNumero++;
                 tempPrivaVal /= 10;
             }
