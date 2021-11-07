@@ -1,3 +1,18 @@
+/*
+Scrivere un programma Java che, lette da tastiera due stringhe composte dalle cifre da 0 a 9, che
+rappresentano due numeri interi  n  e  m, calcoli il prodotto  n*m  usando l’algoritmo imparato alle
+scuole elementari (e stampandone a video i passaggi). Ad esempio, se n = 2431 e m = 523, abbiamo:
+    2431
+    523
+   ----
+   7293
+  4862
+12155
+-------
+1271413
+Quindi il programma stamperà a video (non necessariamente allineate come mostrato sopra) le
+stringhe: 7293, 4862, 12155, 1271413.
+ */
 package universita.primoAnno.primoSemestre.programmazioneUno.esercizi.quattro;
 
 import java.util.Scanner;

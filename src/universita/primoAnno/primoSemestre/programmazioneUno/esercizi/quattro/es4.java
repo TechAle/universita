@@ -1,3 +1,7 @@
+/*
+Scrivere un programma Java che calcoli la somma di due numeri interi positivi letti da tastiera,
+utilizzando solo operazioni di post-incremento e post-decremento.
+ */
 package universita.primoAnno.primoSemestre.programmazioneUno.esercizi.quattro;
 
 import java.util.Scanner;

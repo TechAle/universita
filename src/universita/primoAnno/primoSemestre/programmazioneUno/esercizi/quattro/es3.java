@@ -1,3 +1,10 @@
+/*
+Scrivere   un   programma   Java   che   legga  da   tastiera   un   intero   positivo   e   stampi   a   video   la
+scomposizione in fattori (primi) del numero. Ad esempio, se il numero letto è 12, il programma
+stamperà:
+Numero letto: 12
+Fattori: 2 (2 volte), 3 (1 volta)
+ */
 package universita.primoAnno.primoSemestre.programmazioneUno.esercizi.quattro;
 
 import java.util.Scanner;

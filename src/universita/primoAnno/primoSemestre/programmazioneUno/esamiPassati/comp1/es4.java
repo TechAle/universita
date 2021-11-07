@@ -1,5 +1,21 @@
+/*
+Scrivere un programma Java, denominato EsameD.java che:
+ legga da tastiera una stringa formata da lettere maiuscole;
+ se la stringa letta contiene dei caratteri che non sono lettere maiuscole, il programma
+termina immediatamente l’esecuzione;
+ stampi a video tutte le rotazioni a sinistra della stringa letta. Ad esempio, se la stringa letta è
+CHIAVE, il programma stamperà a video le seguenti stringhe (rotazioni di CHIAVE): HIAVEC
+          IAVECH
+          AVECHI
+          VECHIA
+          ECHIAV
+          CHIAVE
+ stampi a video quante sono le vocali contenute nella stringa e, per ogni vocale, quante volte compare nella stringa.
+Norme di implementazione
+Il programma deve essere realizzato utilizzando esclusivamente i concetti di programmazione presentati nella prima parte del corso. L’unico tipo di ciclo consentito è il while. Il programma deve essere realizzato in modo da non generare errori in compilazione.
+ */
 package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati.comp1;
-// TODO: ricordati di aggiungere le richieste
+
 import java.util.Scanner;
 
 public class es4 {

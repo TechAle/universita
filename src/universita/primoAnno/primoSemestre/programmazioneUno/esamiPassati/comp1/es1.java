@@ -1,3 +1,17 @@
+/*
+Scrivere un programma Java denominato EsameA.java che:
+ legga da tastiera una sequenza di numeri interi maggiori o uguali a 0 (rifiutando quindi i
+numeri negativi), fino a che non viene inserito lo 0;
+ per ogni numero positivo ricevuto, escluso quindi lo 0 finale, aggiorni la somma sum, il
+massimo max e il minimo min dei numeri letti;
+ una volta fatto ciò, stampi a video il valore delle variabili sum, min e max;
+ poi, calcoli la media (in virgola mobile) di tutti i prodotti i*j, con i intero che varia fra
+max e sum e j intero che varia fra min e max;
+ visualizzi infine il risultato dell’elaborazione, stampando a video il valore della media.
+Norme di implementazione
+Il programma deve essere realizzato utilizzando esclusivamente i concetti di programmazione presentati nella prima parte del corso. L’unico tipo di ciclo consentito è il while. Il programma deve essere realizzato in modo da non generare errori in compilazione.
+
+ */
 package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati.comp1;
 
 import java.util.Scanner;

@@ -1,3 +1,18 @@
+/*
+Scrivere un programma Java denominato EsameB.java che:
+ legga da tastiera un numero intero positivo n (rifiutando quindi eventuali numeri negativi o
+nulli, e chiedendo nuovamente di inserire un intero positivo);
+ legga da tastiera una sequenza di numeri interi positivi (rifiutando quindi numeri minori o
+uguali a 0) fino a che non viene inserito nuovamente il numero n;
+ per ogni numero letto, escluso n, aggiorni il prodotto prod, il massimo max e il minimo
+min dei numeri letti;
+ una volta fatto ciò, stampi a video i valori delle variabili prod, min e max;
+ poi, calcoli la media (in virgola mobile) di tutte le somme i+j, con i intero che varia fra
+max e prod e j intero che varia fra min e max;
+ visualizzi infine il risultato dell’elaborazione, stampando a video il valore della media.
+Norme di implementazione
+Il programma deve essere realizzato utilizzando esclusivamente i concetti di programmazione presentati nella prima parte del corso. L’unico tipo di ciclo consentito è il while. Il programma deve essere realizzato in modo da non generare errori in compilazione.
+ */
 package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati.comp1;
 
 import java.util.Scanner;

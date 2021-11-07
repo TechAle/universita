@@ -1,3 +1,18 @@
+/*
+Scrivere un programma Java che, lette da tastiera due stringhe genoma e proteina, entrambe
+formate dalle lettere A, C, G, T (che indicano rispettivamente Adenina, Citosina, Guanina e Timina,
+le quattro basi azotate che compongono il DNA) stampi a video tutte le occorrenze della stringa
+proteina all’interno della stringa genoma, senza usare i metodi substring() e indexOf() della
+classe String.
+Ad esempio, se genoma = ACCAGTCAGTGCAATC e proteina = AGT, il programma stamperà a
+video:
+La sequenza AGT compare in ACCAGTCAGTGCAATC nelle
+seguenti posizioni: 4, 8
+Si noti che la prima posizione ha indice 1.
+Altro esempio: se genoma = AAAAAAA e proteina = AAA, il programma stamperà a video:
+La sequenza AAA compare in AAAAAAA nelle seguenti
+posizioni: 1, 2, 3, 4, 5
+ */
 package universita.primoAnno.primoSemestre.programmazioneUno.esercizi.quattro;
 
 import java.util.Scanner;
