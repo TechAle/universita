@@ -1,0 +1,35 @@
+1)
+float x = 5.0;
+int value = 5 + 4*x;
+-> errore compilazione, cast
+2)
+Quale operazione di compie quando si sviluppa un programma?
+-> Si creano dei file con estensione .java
+3)
+int x = 5;
+int y = 20;
+int z = 50 + 20*y + (int)(X/10);
+Qual'è il valore di z?
+-> Errore compilazione, la X è maiuscola
+4)
+int x = -3, y = -1, z = 0;
+do {
+    x = x - y;
+    z = x - z;
+    y++;
+}while(????)
+Cosa inserire al posto di ???? affinchè y esca con 1?
+-> x <= z
+5)
+int x = -6, y = 10;
+if (x < -1)
+    if (x < -4)
+        if (x < y)
+            System.out.print(x+y)
+        else
+            System.out.print(x)
+
+System.out.print(x+y)
+System.out.print(y)
+Cosa viene stampato?
+-> 4410
