@@ -13,7 +13,7 @@ che compone la stringa inserita dall’utente.
 Norme di implementazione
 Il programma deve essere realizzato utilizzando esclusivamente i concetti di programmazione presentati nella prima parte del corso. L’unico tipo di ciclo consentito è il while. Il programma deve essere realizzato in modo da non generare errori in compilazione.
  */
-package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati.comp1;
+package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati;
 
 import java.util.Scanner;
 
