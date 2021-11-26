@@ -5,7 +5,7 @@ colonne (entrambe comprese tra 1 e 10) di una matrice casuale di elementi interi
 Si ricorda che la trasposta di una matrice M è la matrice MT ottenuta “scambiando” le righe con le
 colonne: cioè, le righe di MT sono le colonne di M, e le colonne di MT sono le righe di M.
  */
-package universita.primoAnno.primoSemestre.programmazioneUno.cartaOro.due;
+package universita.primoAnno.primoSemestre.programmazioneUno.esercizi.sei;
 
 import java.util.Random;
 
