@@ -47,7 +47,7 @@ public class es1 {
         int partiteFatte = 0;
 
         do {
-            int numeroCasuale = metodi.estraiNumeroCasuale();
+            int numeroCasuale = metodiEs1.estraiNumeroCasuale();
             System.out.print(numeroCasuale);
             int min = Integer.MIN_VALUE,
                     max = Integer.MAX_VALUE;
@@ -58,7 +58,7 @@ public class es1 {
                 System.out.print("Numero: ");
                 int inserito = new Scanner(System.in).nextInt();
 
-                switch (metodi.confrontaNumeri(inserito, numeroCasuale)) {
+                switch (metodiEs1.confrontaNumeri(inserito, numeroCasuale)) {
                     case 1:
                         if (inserito < max) {
                             max = inserito;
@@ -88,7 +88,7 @@ public class es1 {
                 System.out.print(" numero non indovinato.");
             else System.out.printf(" numero indovinato con %d tentativi", tentativi );
 
-            metodi.aggiornaInformazionePartite(numeriDaIndovinare, indovinato, nTentativi, (partiteFatte < 5 ? partiteFatte++ : partiteFatte),
+            metodiEs1.aggiornaInformazionePartite(numeriDaIndovinare, indovinato, nTentativi, (partiteFatte < 5 ? partiteFatte++ : partiteFatte),
                     tentativi, numeroCasuale, tentativi != 10);
 
 
@@ -105,7 +105,7 @@ public class es1 {
     }
 }
 
-class metodi {
+class metodiEs1 {
     public static int estraiNumeroCasuale() {
         return new Random().nextInt(100) + 1;
     }
