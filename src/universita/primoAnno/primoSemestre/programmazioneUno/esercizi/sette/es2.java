@@ -1,6 +1,7 @@
 package universita.primoAnno.primoSemestre.programmazioneUno.esercizi.sette;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /*
 Anche questo esercizio è poco chiaro lol
@@ -16,7 +17,10 @@ public class es2 {
         for(int i = 0; i < 10; i++)
             mondoUtils.aggiungiOstacolo(mondoUtils.mondo);
 
-        mondoUtils.stampaMondo(mondoUtils.mondo);
+        do {
+            mondoUtils.stampaMondo(mondoUtils.mondo);
+            robotUtils.setCoordinate(new Scanner(System.in).nextLine().charAt(0));
+        }while (true);
     }
 
 
@@ -81,7 +85,7 @@ class mondoUtils {
     }
 
     static boolean aggiungiOstacolo(int[][] mondo, int x, int y) {
-        if (mondo[x][x] == 0) {
+        if (mondo[x][y] == 0) {
             mondo[x][y] = 1;
             return true;
         }
@@ -96,32 +100,39 @@ class robotUtils {
     static void setCoordinate(int x, int y, String movimenti) {
         coordinate = new int[]{x, y};
         for(int i = 0; i < movimenti.length(); i++) {
-            int     varX = 0,
-                    varY = 0;
-            switch (movimenti.charAt(i)) {
-                case 's':
-                    varY = -1;
-                    break;
-                case 'e':
-                    varX = -1;
-                    break;
-                case 'n':
-                    varY = 1;
-                    break;
-                case 'o':
-                    varX = 1;
-                    break;
-            }
 
-            if (mondoUtils.posizioneLegale(coordinate, varX, varY)) {
-                coordinate[0] += varX;
-                coordinate[1] += varY;
-            }
-
+            setCoordinate(movimenti.charAt(i));
 
         }
-        mondoUtils.mondo[coordinate[0]][coordinate[1]] = 3;
 
+
+    }
+
+    static void setCoordinate(char mov) {
+        int     varX = 0,
+                varY = 0;
+        switch (mov) {
+            case 's':
+                varY = -1;
+                break;
+            case 'e':
+                varX = -1;
+                break;
+            case 'n':
+                varY = 1;
+                break;
+            case 'o':
+                varX = 1;
+                break;
+        }
+
+        if (mondoUtils.posizioneLegale(coordinate, varX, varY)) {
+            if (mondoUtils.mondo[coordinate[0]][coordinate[1]] == 3)
+                mondoUtils.mondo[coordinate[0]][coordinate[1]] = 0;
+            coordinate[0] += varX;
+            coordinate[1] += varY;
+            mondoUtils.mondo[coordinate[0]][coordinate[1]] = 3;
+        }
     }
 
 
