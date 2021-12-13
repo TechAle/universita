@@ -5,7 +5,7 @@ numero di interi contenuto in un certo momento è indicato dalla variabile inter
 numeroElementi. Le operazioni sono implementate come metodi della classe Metodi, mentre
 il metodo main() della classe Programma viene utilizzato per testare tali operazioni.
 Le operazioni da implementare nella classe Metodi sono le seguenti:
- creaArray(): alloca un array di 100 elementi interi, e ne restituisce un riferimento al
+ creaMatrice(): alloca un array di 100 elementi interi, e ne restituisce un riferimento al
 chiamante;
  aggiungiElemento(array,numeroElementi,elemento): aggiunge all’array specificato
 (contenente attualmente numeroElementi valori, presenti dall’indice 0 all’indice
