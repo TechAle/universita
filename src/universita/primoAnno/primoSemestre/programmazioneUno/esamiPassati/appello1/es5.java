@@ -5,7 +5,7 @@ Una volta fatto, stampare il numero di cifre che sono uguali sia nella prima che
 Poi, creare una terza stringa "dispari" dove deve contenere solo i numeri dispari delle 2 stringhe, di questa stringa:
 Contare il numero di volte dove il numero cambia (es. 1121111 (cambia 2 volte)) e fare la medie dei vari numeri
  */
-package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati;
+package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati.appello1;
 
 import java.util.Scanner;
 

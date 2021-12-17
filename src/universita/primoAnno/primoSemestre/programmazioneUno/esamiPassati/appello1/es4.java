@@ -14,7 +14,7 @@ CHIAVE, il programma stamperà a video le seguenti stringhe (rotazioni di CHIAVE
 Norme di implementazione
 Il programma deve essere realizzato utilizzando esclusivamente i concetti di programmazione presentati nella prima parte del corso. L’unico tipo di ciclo consentito è il while. Il programma deve essere realizzato in modo da non generare errori in compilazione.
  */
-package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati;
+package universita.primoAnno.primoSemestre.programmazioneUno.esamiPassati.appello1;
 
 import java.util.Scanner;
 
