@@ -1,3 +1,0 @@
-P2A08) Volo: Partenza: MXP. Arrivo: SFO. Durata: 745. Tratti: 3
-P2A03) Volo: Partenza: FCO. Arrivo: SFO. Durata: 665. Tratti: 1durataInMinuti: 665
-P2A01) Volo: Partenza: MXP. Arrivo: LIN. Durata: 20. Tratti: 1durataInMinuti: 20
