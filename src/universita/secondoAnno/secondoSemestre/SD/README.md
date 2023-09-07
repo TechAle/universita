@@ -11,3 +11,4 @@ argomenti di SD, però a nessuno piace come è strutturato l'esame e come
 viene spiegato. 100% l'esame peggiore di questo semestre, buona fortuna 
 passarlo siccome ve ne servirà tanta. Studiatevi bene a memoria le domande 
 del mega.
+- Preappello link: https://github.com/TechAle/progettoSD
