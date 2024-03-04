@@ -1,0 +1,4 @@
+# Architettura degli elaborati
+- Difficoltà: 9/10
+- Esame: Inferno
+- Opinione personale: Argomenti fantastici, bellissimi, però spiegati a mio avviso male e con uno degli esami peggiori che io abbia mai fatto. Spero vivamente che abbiano cambiato l'esame, siccome come è ora anche se studi e lo sai benissimo lo potresti non passare. Studiatevi gli argomenti benissimo, li dovete sapere alla perfezione ogni singolo argomento, imparatevi bene i trucchetti che ho scritto siccome così vi toglierete tipo 5 sezione estremamente velocemente. Mi dispiace veramente molto che un corso con argomenti così bello è stato rovinato così tanto, ma così tanto che in una sessione di 200/300 persone solamente 20 persone riescono a passare, e di queste 200/300 persone comprendo chi è del 1, 2 e 3 anno o più.
