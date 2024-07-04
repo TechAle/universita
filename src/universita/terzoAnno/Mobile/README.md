@@ -1,0 +1,5 @@
+# Mobile
+- Difficoltà: 3/10 (se hai già programmato in passato) 7/10 (se non hai tante esperienze)
+- Opinioni personali: Questo esame è un 30 regalato se avete un bel gruppo. Più o meno il progetto lo potete finire in 2 settimane se fate un progetto semplice, 1 mese se siete masochisti. 
+- Suggerimenti: Guardatevi le lezione della Micucci; imparerete veramente tanto, ma non solo di mobile ma anche di come veramente programmare. Non vi serviranno per l'esame, sono sincero, però imparerete tanto. Anche se noiose, GUARDATEVI I LABORATORI NON FATE IL PROGETTO SE NON LI AVETE VISTI. La valutazione è diciamo, 33% se l'applicazione funzione, 2% l'estetica, 60% la struttura del codice. E per la struttura del codice, dovete seguire perfettamente ciò che i prof fanno senza ma nè però, anche se potreste credere sia futile ciò che fannp.
+- Link del mio progetto: [CLICCAMI!](https://github.com/TechAle/notInsta)
